@@ -4,7 +4,7 @@ Verilog is a **Hardware Description Language (HDL)** used to model and design di
 
 ---
 
-## 📘 Key Concepts
+##  Key Concepts
 
 - **Modules**: Building blocks that describe hardware components.
 - **Data Types**: `wire`, `reg`, `integer`, `parameter`.
@@ -16,12 +16,3 @@ Verilog is a **Hardware Description Language (HDL)** used to model and design di
 
 ---
 
-## 📦 Sample: 2-to-1 Multiplexer
-
-```verilog
-module mux2to1(a, b, sel, y);
-  input [3:0] a, b;
-  input sel;
-  output [3:0] y;
-  assign y = sel ? b : a;
-endmodule
